@@ -1,0 +1,39 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Virtual Environments
+venv/
+env/
+.venv/
+ENV/
+
+# Large Model Checkpoints & Weights
+*.pth
+*.pt
+*.bin
+*.ckpt
+*.onnx
+*.safetensors
+
+# Datasets & Large Archives
+CelebA/
+img_align_celeba/
+*.zip
+*.tar.gz
+*.7z
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+
+# Operating System & IDE artifacts
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
